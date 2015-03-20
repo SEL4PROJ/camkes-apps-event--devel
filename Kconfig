@@ -10,7 +10,6 @@
 
 config APP_EVENT
     bool "Event CAmkES application"
-    default y
-    select APP_CAMKES_EXECUTIVE
+    default n
     help
         An application to demonstrate events in CAmkES.
