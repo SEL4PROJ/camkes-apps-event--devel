@@ -8,8 +8,8 @@
  * @TAG(NICTA_BSD)
  */
 
+#include <camkes.h>
 #include <stdio.h>
-#include <Collector.h>
 
 static void event_callback(void *_ UNUSED) {
 	printf("%s: Got an event\n", __func__);

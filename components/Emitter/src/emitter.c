@@ -8,9 +8,9 @@
  * @TAG(NICTA_BSD)
  */
 
+#include <camkes.h>
 #include <stdio.h>
 #include <sel4/sel4.h>
-#include <Emitter.h>
 
 int run(void) {
     int i;
